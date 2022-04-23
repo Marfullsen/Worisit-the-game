@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="hidden">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
@@ -7,12 +7,57 @@
 </template>
 
 <style>
+.element {
+  background: radial-gradient(circle at 129% 75%, #365df396, transparent 100vw),
+    radial-gradient(circle at 40% 60%, #8450f594, transparent 100vw);
+  min-height: 100vh;
+}
+
+:root {
+  --color-fondo: #0b091c;
+  --color-primario: #8450f5;
+  --color-secundario: #365df3;
+  --color-auxiliar: #fff;
+}
+
+.color-primario {
+  color: var(--color-primario);
+}
+
+.color-secundario {
+  color: var(--color-secundario);
+}
+
+.color-auxiliar {
+  color: var(--color-auxiliar);
+}
+
+.color-fondo {
+  color: var(--color-fondo);
+}
+
+.fondo,
+.fondo-fondo {
+  background-color: var(--color-fondo);
+}
+.fondo-primario {
+  background-color: var(--color-fondo-primario);
+}
+.fondo-secundario {
+  background-color: var(--color-fondo-secundario);
+}
+.fondo-auxiliar {
+  background-color: var(--color-fondo-auxiliar);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: var(--color-fondo);
+  color: var(--color-auxiliar);
+  min-height: 100vh;
 }
 
 nav {
