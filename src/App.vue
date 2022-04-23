@@ -7,9 +7,27 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap");
+
+.neonText {
+  font-family: "Indie Flower", cursive;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #8450f5,
+    0 0 82px #8450f5, 0 0 92px #8450f5, 0 0 102px #8450f5, 0 0 151px #8450f5;
+}
+
 .element {
-  background: radial-gradient(circle at 129% 75%, #365df396, transparent 100vw),
-    radial-gradient(circle at 40% 60%, #8450f594, transparent 100vw);
+  background: rgb(11, 9, 28);
+  background: url("https://www.transparenttextures.com/patterns/shattered-dark.png"),
+    linear-gradient(
+      132deg,
+      rgba(11, 9, 28, 1) 0%,
+      rgba(54, 93, 243, 1) 30%,
+      rgba(95, 52, 163, 1) 72%,
+      rgba(11, 9, 28, 1) 100%
+    );
+  /* background: radial-gradient(circle at 129% 75%, #365df396, transparent 100vw),
+    radial-gradient(circle at 40% 60%, #8450f594, transparent 100vw); */
   min-height: 100vh;
 }
 
@@ -51,7 +69,7 @@
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

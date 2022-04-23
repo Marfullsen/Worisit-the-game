@@ -2,7 +2,7 @@
   <div class="element">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-    <h1 class="text-5xl">Worisit?</h1>
+    <h1 class="text-7xl neonText">Worisit</h1>
   </div>
 </template>
 
@@ -19,9 +19,9 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 h1 {
-  font-family: "Poller One", cursive;
+  font-family: "Indie Flower", cursive;
 }
 </style>
