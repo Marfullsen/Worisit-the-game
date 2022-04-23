@@ -43,6 +43,8 @@ npm run build
 
 - [Extractor de paletas de imágenes](https://coolors.co/image-picker)
 - [Install Tailwind CSS with Vue 3 and Vite](https://tailwindcss.com/docs/guides/vite)
+- [Gradientes con CSS Gradient](https://cssgradient.io/)
+- [More Gradients](https://mycolor.space/gradient3)
 - [Neon Fonts](https://css-tricks.com/how-to-create-neon-text-with-css/)
 - [Favicon Generator](https://www.favicon-generator.org/)
 - <a href="https://es.vecteezy.com/vectores-gratis/dise%C3%B1o">Diseño Vectores por Vecteezy</a>
