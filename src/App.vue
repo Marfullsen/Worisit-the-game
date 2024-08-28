@@ -16,7 +16,7 @@
     0 0 82px #8450f5, 0 0 92px #8450f5, 0 0 102px #8450f5, 0 0 151px #8450f5;
 }
 
-.element {
+.gradiente {
   background: rgb(11, 9, 28);
   background: url("https://www.transparenttextures.com/patterns/shattered-dark.png"),
     linear-gradient(
