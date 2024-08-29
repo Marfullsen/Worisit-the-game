@@ -22,13 +22,13 @@
       />
     </div>
     <button
-      class="px-3 py-2 rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-600"
+      class="px-3 py-2 mb-5 rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-600"
     >
       ¡Jugar!
     </button>
 
     <!-- Toggle A -->
-    <div class="flex items-center justify-center w-full mb-12">
+    <div class="flex items-center justify-center w-full mb-5">
       <div class="ml-3 font-medium">Todos contra todos&nbsp;&nbsp;&nbsp;</div>
       <label for="toogleA" class="flex items-center cursor-pointer">
         <!-- toggle -->
@@ -47,7 +47,7 @@
       </label>
     </div>
 
-    <div class="mt-12 mb-3 pt-0 flex justify-center">
+    <div class="mt-5 mb-3 pt-0 flex justify-center">
       <button
         class="w-15 px-3 py-2 rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-600"
       >
